@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booking a flight</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {background: #D0E4F5 no-repeat scroll 50% 50%;font-family: 'Roboto', sans-serif;}
+        form {font-family: 'Roboto', sans-serif;}
+        #form1 {
+                display: inline-block;
+                -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+                box-shadow: 5px 5px 15px 5px #000000;
+                border: 20px;
+                padding: 20px;
+                border-radius: 15px;
+        }
+        #form2 {
+                display: inline-block;
+                width: 300px;
+                padding: 10px;   
+            }
+        #form3 {
+                display: inline-block;
+                width: 90px;
+                padding: 10px;   
+            }
+    </style>
+</head>
+<body>
+    <div id="form1">
+        <form action="/submit.html">
+            <h2 style="text-align: center;">Welcome To Booking</h2>
+            <div id="form2">
+                <label for="ffrom">Flying from</label><br>
+                <input type="text" id="ffrom" name="ffrom">
+            </div>
+            <div id="form2">
+                <label for="fto">To</label><br>
+                <input type="text" id="fto" name="fto">
+            </div><br>
+            <div id="form2">
+                <label for="depart">Departing</label><br>
+                <input type="date" id="depart">
+            </div>
+            <div id="form2">
+                <label for="return">Returning</label><br>
+                <input type="date" id="return">
+            </div><br>
+            <div id="form3">
+                <lable for="adult">Adult</lable><br>
+                <input type="number" id="adult" style="width: 50px;">
+            </div>
+            <div id="form3">
+                <lable for="child">Child</lable><br>
+                <input type="number" id="child" style="width: 50px;">
+            </div>
+            <div id="form3">
+                <lable for="infant">Infant</lable><br>
+                <input type="number" id="infant" style="width: 50px;">
+            </div>
+            <div id="form3">
+                <lable for="currency">Currency</lable><br>
+                <select id="currency" name="currency">
+                    <option value="USD">USD</option>
+                    <option value="THB">THB</option>
+                    <option value="JPY">JPY</option>
+                    <option value="EUR">EUR</option>
+                  </select>
+            </div><br>
+            <div id="form3">
+            <button type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
