@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .imgsize {
+    width:25%;
+    height:250px;
+    padding:0 8px;
+    float:left
+  }
+  .padding-bigscale {
+    padding-top:50px;
+    padding-bottom:100px;
+    display:inline-block;
+  }
+  .about {
+    padding-top:32px;
+    padding-bottom:32px;
+    margin:50px
+  }
