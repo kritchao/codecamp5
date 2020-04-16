@@ -1,0 +1,52 @@
+p {
+    margin-top: 3px;
+}
+input {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 25px;
+    width: 650px;
+    display: inline-block;
+}
+
+#top {
+    position: relative;
+    padding:20px
+    }
+
+#top-left {
+    float:left;
+    width: 200px;
+
+}
+
+#top-right {
+    padding-top: 15px;
+    float:right;
+}
+
+#bottom {
+    position: relative;
+    display: inline-block;
+    padding:20px
+}
+
+#bottom-left {
+    float:left;
+    width: 200px;
+}
+
+#bottom-right {
+    margin-left:15px;
+    padding-top: 15px;
+    float:right;
+}
